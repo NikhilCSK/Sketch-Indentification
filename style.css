@@ -1,0 +1,52 @@
+#body_b
+{
+
+    background : url("background image.webp");
+
+}
+
+h1{
+
+    background: black;
+    color: aqua;
+
+}
+
+#show_sketch
+{
+
+    float: right;
+    background-color: rgb(70, 69, 66);
+    font-weight: bold;
+    margin-top: 3px;
+
+}
+
+p
+{
+
+    font-size: 25px;
+    color: rgb(2, 88, 2);
+    padding: 5px;
+
+}
+
+canvas
+{
+
+    margin-top: 100px;
+    border: white 5px solid;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite ;
+
+}
+
+@keyframes example
+{
+
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px black;}
+
+}
